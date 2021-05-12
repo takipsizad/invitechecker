@@ -3,9 +3,10 @@ from flask import request
 from flask import Flask
 from threading import Thread
 import pymongo
+from pymongo import MongoClient
 
 app=Flask("")
-
+MongoClient("h")
 
 @app.route("/")
 def index():
